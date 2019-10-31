@@ -1,0 +1,47 @@
+.efafu-admin-container {
+  text-align: left;
+  position: relative;
+}
+.efafu-admin-container .logo {
+  background: url('../../images/logo.png') center no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 18px;
+  left: 42px;
+}
+.efafu-admin-container .header-title {
+  display: block;
+  height: 60px;
+  margin-top: 16px;
+  text-align: center;
+  line-height: 60px;
+  color: #e7ae31;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+.efafu-admin-container .ant-layout {
+  background: url('../../images/bgc1.jpg') center no-repeat;
+  background-size: cover;
+}
+.efafu-admin-container .ant-layout-content > div[class$='container'] {
+  min-height: 550px;
+  max-width: 1050px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.efafu-admin-container .ant-menu {
+  text-align: center;
+  background-color: transparent;
+}
+.efafu-admin-container .ant-list-items {
+  border: 2px solid #e7ae31;
+}
+.efafu-admin-container .ant-list-items .ant-list-item {
+  border-bottom: 2px solid #e7ae31;
+}
+.efafu-admin-container .ant-list-items .ant-list-item:last-child {
+  border: 0;
+}
+/*# sourceMappingURL=./admin.css.map */

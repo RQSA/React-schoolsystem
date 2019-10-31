@@ -1,0 +1,52 @@
+.person-container {
+  background-color: #fff;
+  padding: 24px;
+  margin: 0;
+}
+.person-container h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.person-container .person-info {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 20px;
+  font-size: 16px;
+}
+.person-container .person-info div {
+  margin-bottom: 20px;
+}
+.person-container .person-info div:last-child {
+  margin-bottom: 0;
+}
+.person-container .person-info div span {
+  color: #4ac6f7;
+}
+.person-container .btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.person-container .btn-group .btn {
+  margin-right: 20px;
+}
+.ant-modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+.ant-modal-content .ant-form-item:last-child {
+  margin-bottom: 0;
+  text-align: right;
+}
+.ant-btn {
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.ant-form-item:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=./person.css.map */

@@ -1,0 +1,22 @@
+.ant-carousel .slick-slide {
+  text-align: center;
+  overflow: hidden;
+}
+.ant-carousel .slick-slide img {
+  width: 100%;
+}
+.ant-carousel .slick-dots {
+  height: 8px;
+  bottom: 30px;
+}
+.ant-carousel .slick-dots li {
+  margin: 0 5px;
+}
+.ant-carousel .slick-dots li button {
+  width: 36px;
+  height: 8px;
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background-color: #C3D377;
+}
+/*# sourceMappingURL=./carousel.css.map */

@@ -1,0 +1,52 @@
+.grants-manage-container {
+  background-color: #fff;
+  padding: 32px;
+  margin: 0;
+  text-align: center;
+}
+.grants-manage-container .header {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.grants-manage-container .grants-list {
+  margin-top: 30px;
+}
+.grants-manage-container .grants-list .item {
+  text-align: left;
+  cursor: pointer;
+}
+.grants-manage-container .grants-list .item:hover {
+  color: #4ac6f7;
+}
+.grants-manage-container .ant-empty {
+  margin: 30px 0;
+}
+.grants-manage-container .list-pagination {
+  margin-top: 25px;
+  text-align: right;
+}
+.ant-modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+.ant-modal-content .time {
+  font-size: 12px;
+  color: #aaa;
+}
+.ant-modal-content .conditional {
+  margin-top: 20px;
+}
+.ant-modal-content .ant-form-item:last-child {
+  margin-bottom: 0;
+  text-align: right;
+}
+.ant-btn {
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.ant-form-item:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=./grantsList.css.map */

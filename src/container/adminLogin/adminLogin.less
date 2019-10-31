@@ -1,0 +1,57 @@
+@import (reference) '../../styles/mixin.less';
+
+.efafu-admin-login {
+    height: 100%;
+    min-height: 750px;
+    background: url('../../images/bgc.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.efafu-admin-login-container {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 550px;
+    margin: 160px auto 0;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 30px;
+    border: 3px solid @baseColor;
+    .efafu-admin-login-title {
+        color: @baseColor;
+        p:first-child {
+            font-size: 30px;
+            letter-spacing: 4px;
+        }
+        p:last-child {
+            font-size: 18px;
+        }
+    }
+    button {
+        margin-left: 20px;
+    }
+    .ant-radio-wrapper {
+        span {
+            color: @baseColor;
+        }
+    }
+}
+
+// 模态框样式
+.ant-modal-content {
+    .borderRadius();
+    overflow: hidden;
+    text-align: left;
+    .ant-form-item:last-child {
+        margin-bottom: 0;
+        text-align: right;
+    }
+}
+
+.ant-btn {
+    .borderRadius();
+    margin-left: 10px;
+}
+
+.ant-form-item:last-child {
+    margin-bottom: 0;
+}

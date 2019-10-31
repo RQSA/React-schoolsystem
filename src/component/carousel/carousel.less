@@ -1,0 +1,26 @@
+@import (reference) '../../styles/mixin.less';
+
+.ant-carousel {
+    .slick-slide {
+        text-align: center;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+    .slick-dots {
+        height: 8px;
+        bottom: 30px;
+        li {
+            margin: 0 5px;
+            button {
+                width: 36px;
+                height: 8px;
+            }
+            &.slick-active button {
+                background-color: @baseColor;
+            }
+        }
+    }
+}
+  

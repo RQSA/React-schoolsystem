@@ -1,0 +1,53 @@
+@import (reference) '../../../styles/mixin.less';
+
+.statis-container {
+    background-color: #fff;
+    padding: 32px; 
+    margin: 0;
+    text-align: center;
+    .list-header {
+        height: 50px;
+        background-color: @baseColor;
+        color: #fff;
+        border: 1px solid @baseColor;
+        border-bottom: none;
+        line-height: 26px;
+        font-weight: 900;
+        padding: 12px 16px 12px 40px;
+    }
+    .panel-header {
+        .ant-btn {
+            margin-left: 14px;
+        }
+    }
+    .panel-content {
+        padding: 0 20px;
+        .content-item {
+            display: flex;
+            line-height: 35px;
+            span {
+                width: 90px;
+                color: @baseColor;
+                white-space: nowrap;
+                margin-right: 5px;
+            }
+            p {
+                margin-bottom: 0;
+                max-width: 980px;
+                text-align: left;
+                word-break: break-all;
+            }
+        }   
+    }
+    .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+        line-height: 32px;
+    }
+    .ant-empty {
+        margin: 30px 0;
+    }
+
+    .list-pagination {
+        margin-top: 25px;
+        text-align: right;
+    }
+}

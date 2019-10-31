@@ -1,0 +1,69 @@
+.grants-manage-container {
+  background-color: #fff;
+  padding: 32px;
+  margin: 0;
+  text-align: center;
+}
+.grants-manage-container .header {
+  text-align: right;
+}
+.grants-manage-container .list-header {
+  height: 50px;
+  background-color: #4ac6f7;
+  color: #fff;
+  border: 1px solid #4ac6f7;
+  border-bottom: none;
+  line-height: 26px;
+  font-weight: 900;
+  padding: 12px 16px 12px 40px;
+  margin-top: 20px;
+}
+.grants-manage-container .panel-header .ant-btn {
+  margin-left: 14px;
+}
+.grants-manage-container .panel-content {
+  padding: 0 20px;
+}
+.grants-manage-container .panel-content .content-item {
+  display: flex;
+  line-height: 35px;
+}
+.grants-manage-container .panel-content .content-item span {
+  width: 90px;
+  color: #4ac6f7;
+  white-space: nowrap;
+  margin-right: 5px;
+}
+.grants-manage-container .panel-content .content-item p {
+  margin-bottom: 0;
+  max-width: 980px;
+  text-align: left;
+  word-break: break-all;
+}
+.grants-manage-container .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  line-height: 32px;
+}
+.grants-manage-container .ant-empty {
+  margin: 30px 0;
+}
+.grants-manage-container .list-pagination {
+  margin-top: 25px;
+  text-align: right;
+}
+.ant-modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+.ant-modal-content .ant-form-item:last-child {
+  margin-bottom: 0;
+  text-align: right;
+}
+.ant-btn {
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.ant-form-item:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=./grants.css.map */

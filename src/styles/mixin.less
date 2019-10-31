@@ -1,0 +1,34 @@
+@baseColor: #e7ae31;
+@baseRed: #E96B5E;
+@baseBlue: #4ac6f7;
+@baseYellow: #FBBC85;
+@basePurple: #8787c4;
+@baseDarkgreen: #5EA4A4;
+@baseGary: #ddd;
+
+// 设置宽高
+.wh(@w, @h) when ((ispixel(@w))or(ispercentage(@w))), ((ispixel(@h))or(ispercentage(@h))) {
+    width: @w;
+    height: @h;
+}
+
+// 设置圆角
+.borderRadius(@border-radius: 10px) when (ispixel(@border-radius)) {
+    border-radius: @border-radius;
+}
+
+// 设置字体样式
+.font(@font-size: 14px, @color: #000, @text-align: center, @font-weight: normal) {
+    font-size: @font-size;
+    color: @color;
+    text-align: @text-align;
+    font-weight: @font-weight;
+}
+
+// 设置flex布局
+.flex(@justify-content: center, @align-items: center) {
+    display: flex;
+    justify-content: @justify-content;
+    align-items: @align-items;
+}
+

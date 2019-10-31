@@ -1,0 +1,69 @@
+.apply-manage-container {
+  background-color: #fff;
+  padding: 32px;
+  margin: 0;
+  position: relative;
+}
+.apply-manage-container .header {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.apply-manage-container .apply-form {
+  margin-right: 200px;
+}
+.apply-manage-container .apply-form .btn {
+  margin-top: 30px;
+}
+.apply-manage-container .apply-form .ant-descriptions-item-content {
+  padding: 0;
+}
+.apply-manage-container .apply-form .ant-form-item {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.apply-manage-container .apply-form .ant-form-item .ant-input,
+.apply-manage-container .apply-form .ant-form-item .ant-input-number,
+.apply-manage-container .apply-form .ant-form-item .ant-select-selection {
+  padding: 0;
+  border: 0;
+}
+.apply-manage-container .apply-form .ant-form-item .ant-input-number {
+  width: 100%;
+}
+.apply-manage-container .apply-form .ant-form-item .ant-input,
+.apply-manage-container .apply-form .ant-form-item .ant-input-number {
+  padding-left: 10px;
+}
+.apply-manage-container .apply-form.loading .ant-descriptions-item-content {
+  padding: 20px;
+}
+.apply-manage-container .form {
+  margin-top: 20px;
+}
+.apply-manage-container .table {
+  margin-top: 20px;
+}
+.apply-manage-container .table .title {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+}
+.apply-manage-container .table .table-img {
+  width: 600px;
+}
+.apply-manage-container .ant-empty {
+  margin: 30px 0;
+}
+.apply-manage-container .time {
+  width: 200px;
+  position: absolute;
+  top: 110px;
+  right: 26px;
+  padding-left: 45px;
+}
+.apply-manage-container .time p {
+  font-weight: bold;
+}
+/*# sourceMappingURL=./apply.css.map */

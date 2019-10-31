@@ -1,0 +1,29 @@
+.needylist-manage-container {
+  background-color: #fff;
+  padding: 32px;
+  margin: 0;
+  text-align: center;
+}
+.needylist-manage-container .header {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.needylist-manage-container .needylist-list {
+  margin-top: 30px;
+  padding: 0 30px;
+}
+.needylist-manage-container .needylist-list p {
+  text-align: left;
+}
+.needylist-manage-container .needylist-list .item {
+  text-align: left;
+  padding: 0 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.needylist-manage-container .ant-empty {
+  margin: 30px 0;
+}
+/*# sourceMappingURL=./needylist.css.map */

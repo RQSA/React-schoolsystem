@@ -1,0 +1,64 @@
+.second-manage-container {
+  background-color: #fff;
+  padding: 32px;
+  margin: 0;
+  text-align: center;
+}
+.second-manage-container .header {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.second-manage-container .list-header {
+  height: 50px;
+  background-color: #4ac6f7;
+  color: #fff;
+  border: 1px solid #4ac6f7;
+  border-bottom: none;
+  line-height: 26px;
+  font-weight: 900;
+  padding: 12px 16px 12px 40px;
+  margin-top: 20px;
+}
+.second-manage-container .panel-header .ant-btn {
+  margin-left: 14px;
+}
+.second-manage-container .panel-content {
+  padding: 0 20px;
+}
+.second-manage-container .panel-content .content-item {
+  display: flex;
+  line-height: 35px;
+}
+.second-manage-container .panel-content .content-item span {
+  min-width: 90px;
+  color: #4ac6f7;
+  white-space: nowrap;
+  margin-right: 5px;
+}
+.second-manage-container .panel-content .content-item p {
+  margin-bottom: 0;
+  max-width: 980px;
+  text-align: left;
+  word-break: break-all;
+}
+.second-manage-container .panel-content .table {
+  padding-top: 20px;
+}
+.second-manage-container .panel-content .table .table-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+.second-manage-container .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  line-height: 32px;
+}
+.second-manage-container .ant-empty {
+  margin: 30px 0;
+}
+.second-manage-container .list-pagination {
+  margin-top: 25px;
+  text-align: right;
+}
+/*# sourceMappingURL=./second.css.map */
