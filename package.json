@@ -73,7 +73,7 @@
     "postcss-safe-parser": "4.0.1",
     "react-app-polyfill": "^0.2.2",
     "react-app-rewired": "^2.1.1",
-    "react-dev-utils": "^8.0.0",
+    "react-dev-utils": "^11.0.4",
     "react-scripts": "^2.1.8",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
